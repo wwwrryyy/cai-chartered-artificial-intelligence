@@ -132,7 +132,7 @@ function UploadView() {
   const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
     if (!e.target.files || e.target.files.length === 0) return;
     setUploading(true);
-    setMessage('Extracting and analyzing with CAI...');
+    setMessage('Extracting and Analysing with Gemma...');
     const formData = new FormData();
     for (let i = 0; i < e.target.files.length; i++) { formData.append('files', e.target.files[i]); }
     try {
