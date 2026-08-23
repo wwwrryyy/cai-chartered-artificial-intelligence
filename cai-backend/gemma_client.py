@@ -105,7 +105,7 @@ def configure_gemma() -> genai.Client:
 def _invoke_model(prompt: str, images: List[str] = None, system_instruction: str | None = None) -> str:
     """Internal model invocation helper using local Ollama."""
     import requests
-    model_name = os.getenv("GEMMA_MODEL", "gemma3:4b").strip() or "gemma3:4b"
+    model_name = os.getenv("GEMMA_MODEL", "qwen3-vl:4b").strip() or "qwen3-vl:4b"
     
     text_prompt = prompt
     if system_instruction:

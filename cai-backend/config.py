@@ -5,7 +5,7 @@ from __future__ import annotations
 from typing import Dict, List, Tuple
 
 APP_NAME = "CAI"
-APP_TAGLINE = "Finding every deduction, missing nothing — powered by Gemma 4"
+APP_TAGLINE = "Finding every deduction, missing nothing — powered by Qwen3-VL"
 CURRENCY_SYMBOL = "₹"
 DATE_FORMAT = "%d/%m/%Y"
 
